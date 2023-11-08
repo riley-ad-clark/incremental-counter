@@ -10,5 +10,9 @@
 
 An incremental counter is a simple, yet powerful tool used in web development and various applications to keep track of and display numerical values. It's a versatile component often used in web interfaces to track quantities, scores, or any other numerical data. Building an incremental counter in JavaScript can be an enlightening experience for developers of all levels, offering insights into event handling, DOM manipulation, and user interaction. 
 
-In this guide, we will walk through the process of creating an incremental counter from scratch, where users can click buttons to increment or decrement a displayed number. This practical exercise will not only teach you the fundamentals of web development but also provide a hands-on understanding of event-driven programming and dynamic content updates in web applications. Whether you're a beginner looking to start your web development journey or an experienced developer seeking to reinforce your skills, this guide will help you build a functional and interactive incremental counter for your web projects.
+In this guide, we will walk through the process of creating an incremental counter from scratch, where users can click buttons to increment, or decrement a displayed number.  Whether you're a beginner looking to start your web development journey or an experienced developer seeking to reinforce your skills, this guide will help you build a functional and interactive incremental counter for your web projects.
+
+## Demo
+
+[Click here](https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html) to visit the demo site for this project.
 
