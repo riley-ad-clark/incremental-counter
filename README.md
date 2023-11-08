@@ -52,7 +52,7 @@ increaseOne.addEventListener('click', () => {
     colorCheck();
 });
 ```
-For all buttons on the page, the program reads for a ```click`````` from the user using ```DOM (Document Object Model)```, which represents the structure of the HTML file to JavaScript. It then executes a function to perform it's allocated task. Whether it be +1, +5, +10 or vice versa. And lastly, it checks for the corresponding color.
+For all buttons on the page, the program reads for a ```click``` from the user using ```DOM (Document Object Model)```, which represents the structure of the HTML file to JavaScript. It then executes a function to perform it's allocated task. Whether it be +1, +5, +10 or vice versa. And lastly, it checks for the corresponding color.
 
 ```colorCheck()``` is a custom ```function``` used to check if a number is either negative, or positive, and changing a color to green, or red in correspondance. Check it out:
 
