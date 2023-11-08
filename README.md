@@ -14,5 +14,5 @@ In this guide, we will walk through the process of creating an incremental count
 
 ## Demo
 
-[Click here](https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html) to visit the demo site for this project.
+[Click here](https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html){:target="_blank"} to visit the demo site for this project!
 
