@@ -111,11 +111,11 @@ h2 {
 
 ## Summary
 
-Understanding the simple structure of JavaScript, and HTML and CSS for that matter; and how to effectively use them to construct beautifully simple applications is a perfect way to practice your coding skills when you're in down time!
+Understanding the simple structure of JavaScript, and HTML and CSS for that matter; and how to effectively use them to construct beautifully simple applications is a perfect way to practice your coding skills in your down time!
 
 ### Remember
 
-It's important to understand that no matter your skill level, it is important to practice, and yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex projects down the line, which is _never_ a bad idea. 
+It's important to understand that no matter your skill level, it is important to practice. And yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex projects down the line, which is __never__ a bad idea.
 
 ## Demo
 
