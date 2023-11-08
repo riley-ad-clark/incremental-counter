@@ -70,9 +70,19 @@ function colorCheck () {
     }
 }
 ```
-As for CSS, a general rule of thumb is to use centering whenever there is little on the page, as with this project. Design is subjective so let your creative juices flow, and feel free to use my style-sheet as a reference, nobody is wrong! (Unless you're using the default system fonts...) Here are some key CSS styles to achieve what I made
+
+### CSS
+
+As for CSS, a general rule of thumb is to use centering whenever there is little on the page, as with this project. Design is subjective so let your creative juices flow, and feel free to use my style-sheet as a reference, nobody is wrong! (Unless you're using the default system fonts...) 
+
+Here are some key CSS styles to achieve what I made:
 
 ```css
+/*
+colors:
+base green (hover is darker) = #32e33e
+base red (hover is darker)= #eb3535
+*/
 button {
     padding: 10px;
     border-radius: 10px;
