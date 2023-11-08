@@ -67,6 +67,7 @@ function colorCheck () {
         numberElement.style.color = '#000000'
     }
 }
+```
 
 ## Summary
 
