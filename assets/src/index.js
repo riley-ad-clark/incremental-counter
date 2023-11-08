@@ -1,10 +1,14 @@
 'use strict';
-
+ 
 /*--------querySelectors--------*/
 
-const decrease = document.querySelector('.decrease');
+const decreaseOne = document.querySelector('.d-one');
+const decreaseFive = document.querySelector('.d-five');
+const decreaseTen = document.querySelector('.d-ten');
 const reset = document.querySelector('.reset');
-const increase = document.querySelector('.increase');
+const increaseOne = document.querySelector('.i-one');
+const increaseFive = document.querySelector('.i-five');
+const increaseTen = document.querySelector('.i-ten');
 const numberElement = document.getElementById('number');
 
 /*--------end of querySelectors--------*/
@@ -13,15 +17,39 @@ numberElement.innerText = '0';
 
 /*--------buttons--------*/
 
-decrease.addEventListener('click', () => {
+decreaseOne.addEventListener('click', () => {
     let number = parseInt(numberElement.innerText, 10);
     number--;
     numberElement.innerText = number.toString();
 });
 
-increase.addEventListener('click', () => {
+decreaseFive.addEventListener('click', () => {
+    let number = parseInt(numberElement.innerText, 10);
+    number -= 5;
+    numberElement.innerText = number.toString();
+});
+
+decreaseTen.addEventListener('click', () => {
+    let number = parseInt(numberElement.innerText, 10);
+    number -= 10;
+    numberElement.innerText = number.toString();
+});
+
+increaseOne.addEventListener('click', () => {
     let number = parseInt(numberElement.innerText, 10);
     number++;
+    numberElement.innerText = number.toString();
+});
+
+increaseFive.addEventListener('click', () => {
+    let number = parseInt(numberElement.innerText, 10);
+    number += 5;
+    numberElement.innerText = number.toString();
+});
+
+increaseTen.addEventListener('click', () => {
+    let number = parseInt(numberElement.innerText, 10);
+    number += 10;
     numberElement.innerText = number.toString();
 });
 
