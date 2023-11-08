@@ -17,6 +17,7 @@ In this guide, we will walk through the process of creating an incremental count
 With the given files, all 3 aspects that make up this project are very simple in nature. For example:
 
 ### HTML
+
 ```html
 <body>
     <div class="container center">
@@ -52,6 +53,7 @@ increaseOne.addEventListener('click', () => {
     colorCheck();
 });
 ```
+
 For all buttons on the page, the program reads for a ```click``` from the user using ```DOM (Document Object Model)```, which represents the structure of the HTML file to JavaScript. It then executes a function to perform it's allocated task. Whether it be +1, +5, +10 or vice versa. And lastly, it checks for the corresponding color.
 
 ```colorCheck()``` is a custom ```function``` used to check if a number is either negative, or positive, and changing a color to green, or red in correspondance. Check it out:
@@ -74,7 +76,7 @@ function colorCheck () {
 Understanding the simple structure of JavaScript, and HTML and CSS for that matter; and how to effectively use them to construct beautifully simple applications is a perfect way to practice your coding skills when you're in down time!
 
 ### Remember:
-It's important to understand that no matter your skill level, it is important to practice, and yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex. 
+It's important to understand that no matter your skill level, it is important to practice, and yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex projects down the line, which is _never_ a bad idea. 
 
 ## Demo
 
