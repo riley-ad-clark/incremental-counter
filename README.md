@@ -12,6 +12,31 @@ An incremental counter is a simple, yet powerful tool used in web development an
 
 In this guide, we will walk through the process of creating an incremental counter from scratch, where users can click buttons to increment, or decrement a displayed number.  Whether you're a beginner looking to start your web development journey or an experienced developer seeking to reinforce your skills, this guide will help you build a functional and interactive incremental counter for your web projects.
 
+## The Breakdown
+
+With the given files, all 3 aspects that make up this project are very simple in nature. For example,
+
+### HTML
+```html
+<body>
+        <div class="container center">
+            <section>
+                <h1>Incremental Counter</h1>
+                <h2 class="center-within" id="number"></h2>
+                <div class="buttons">
+                    <button class="decrease d-ten">-10</button>
+                    <button class="decrease d-five">-5</button>
+                    <button class="decrease d-one">-1</button>
+                    <button class="reset">reset</button>
+                    <button class="increase i-one">+1</button>
+                    <button class="increase i-five">+5</button>
+                    <button class="increase i-ten">+10</button>
+                </div>
+            </section>
+        </div>
+    </body>
+```
+
 ## Demo
 
 <a href="https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html" target="_blank">Click here</a> to visit the demo site for this project!
