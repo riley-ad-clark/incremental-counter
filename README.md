@@ -41,7 +41,7 @@ The simplicity of the HTML shown is reflected in not only the CSS, but also the 
 
 ### JavaScript
 
-This project effectively uses the ```addEventListener``` method to receive user inputs using the ```click``` event type.
+This project effectively uses the ```addEventListener``` method to receive user inputs using the ```click``` event type, along with the standard array of ```const```'s from the HTML above.
 
 Take the following for example:
 
@@ -70,12 +70,14 @@ function colorCheck () {
     }
 }
 ```
+As for CSS, a general rule of thumb is to use centering whenever there is little on the page, as with this project. Design is subjective so let your creative juices flow, and feel free to use my style-sheet as a reference, nobody is wrong! (Unless you're using the default system fonts...)
 
 ## Summary
 
 Understanding the simple structure of JavaScript, and HTML and CSS for that matter; and how to effectively use them to construct beautifully simple applications is a perfect way to practice your coding skills when you're in down time!
 
-### Remember:
+### Remember
+
 It's important to understand that no matter your skill level, it is important to practice, and yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex projects down the line, which is _never_ a bad idea. 
 
 ## Demo
