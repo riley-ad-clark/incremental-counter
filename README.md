@@ -14,7 +14,7 @@ In this guide, we will walk through the process of creating an incremental count
 
 ## The Breakdown
 
-With the given files, all 3 aspects that make up this project are very simple in nature. For example,
+With the given files, all 3 aspects that make up this project are very simple in nature. For example:
 
 ### HTML
 ```html
@@ -36,83 +36,47 @@ With the given files, all 3 aspects that make up this project are very simple in
     </div>
 </body>
 ```
-### CSS
-```css
-/*--------general--------*/
-.container {
-    width: min(100% - 40px, 1280px);
-    margin-inline: auto;
-}
-
-.center {
-    display: grid;
-    place-items: center;
-    align-items: center;
-    height: 100dvh;
-}
-
-.center-within {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-/*--------end of general--------*/
-
-/*--------text--------*/
-
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    margin-bottom: 10px;
-    font-size: 100px;
-}
-/*--------end of text--------*/
-
-/*--------buttons--------*/
-
-.buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button {
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s ease-in-out;
-    margin: 0 10px 0 10px;
-}
-
-.decrease {
-    background-color: #e44545;
-    color: #fff;
-    transition: 0.3s ease-in-out;
-}
-
-.decrease:hover {
-    background-color: #eb3535;
-    transition: 0.3s ease-in-out;
-}
-
-.increase {
-    background-color: #4ce956;
-    color: #fff;
-}
-
-.increase:hover {
-    background-color: #32e33e;
-    color: #fff;
-}
-/*--------end of buttons--------*/
-```
+The simplicity of the HTML shown is reflected in not only the CSS, but also the *JavaScript* with its simple, yet effective use of ```event listeners```.
 
 ### JavaScript
 
+This project effectively uses the ```addEventListener``` method to receive user inputs using the ```click``` event type.
+
+Take the following for example:
+
+```javascript
+increaseOne.addEventListener('click', () => {
+    let number = parseInt(numberElement.innerText, 10);
+    number++;
+    numberElement.innerText = number.toString();
+    colorCheck();
+});
+```
+For all buttons on the page, the program reads for a ```click`````` from the user using ```DOM (Document Object Model)```, which represents the structure of the HTML file to JavaScript. It then executes a function to perform it's allocated task. Whether it be +1, +5, +10 or vice versa. And lastly, it checks for the corresponding color.
+
+```colorCheck()``` is a custom ```function``` used to check if a number is either negative, or positive, and changing a color to green, or red in correspondance. Check it out:
+
+```javascript
+function colorCheck () {
+    let number = parseInt(numberElement.innerText, 10)
+    if (number > 0) {
+        numberElement.style.color = '#32e33e'
+    } else if (number < 0) {
+        numberElement.style.color = '#eb3535'
+    } else {
+        numberElement.style.color = '#000000'
+    }
+}
+
+## Summary
+
+Understanding the simple structure of JavaScript, and HTML and CSS for that matter; and how to effectively use them to construct beautifully simple applications is a perfect way to practice your coding skills when you're in down time!
+
+### Remember:
+It's important to understand that no matter your skill level, it is important to practice, and yes, that includes the fundamentals! Simple projects like this force you to review the foundation for more complex. 
 
 ## Demo
 
-<a href="https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html" target="_blank">Click here</a> to visit the demo site for this project!
+<a href="https://raw.githack.com/riley-ad-clark/incremental-counter/main/index.html">Click here</a> to visit the demo site for this project!
 
 
