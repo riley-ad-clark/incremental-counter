@@ -70,7 +70,42 @@ function colorCheck () {
     }
 }
 ```
-As for CSS, a general rule of thumb is to use centering whenever there is little on the page, as with this project. Design is subjective so let your creative juices flow, and feel free to use my style-sheet as a reference, nobody is wrong! (Unless you're using the default system fonts...)
+As for CSS, a general rule of thumb is to use centering whenever there is little on the page, as with this project. Design is subjective so let your creative juices flow, and feel free to use my style-sheet as a reference, nobody is wrong! (Unless you're using the default system fonts...) Here are some key CSS styles to achieve what I made
+
+```css
+button {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    margin: 0 10px 0 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+
+.container {
+    width: min(100% - 40px, 1280px);
+    margin-inline: auto;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.center-within {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}```
 
 ## Summary
 
